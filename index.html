@@ -1,0 +1,88 @@
+ <!-- <div id="box0">box1</div>
+<div id="box1">box2</div>
+<div id="box2">box3</div>
+<div id="box3">box4</div>
+<div id="box4">box5</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script> -->
+
+<button onclick="myFunction(this)">Click me</button>
+
+<script>
+
+
+function myFunction(button) {
+
+  document.write(button.getAttribute("onClick", 1))
+
+}
+
+// for(var i=0; i<5; i++){
+//   (function(i){
+//     $('#box'+i).click(function(){
+//       console.log(i);
+//     });
+//   })(i);
+// }
+
+
+// for(let I=0; I<5; I++){
+//   $('#box'+I).click(function(){
+//     console.log(I);
+//   });
+// }
+
+
+// function outer() {
+
+//   var x = 10;
+
+//   function inner() {
+
+//     console.log(x)
+
+//   }
+
+// }
+</script>
+
+
+<!-- call stack
+
+web api'
+localstorage
+fetch()   netflkix server
+
+location
+
+
+event loop
+micro task  -->
+
+<!-- console.log('a');
+setTimeout(console.log('b'), 0); 
+console.log('c');
+setTimeout(console.log('d'), 10);
+console.log('e'); -->
+<!-- 
+<script>
+  function printRightTrianglePattern() {
+    
+    var row = 6;
+    let string = "";
+    
+    for (var i = 0; i < row; i++) {
+        
+        for (var j = 0; j <= i; j++) {
+            
+            string += "*";
+        }
+        
+        string += "\n";
+    }
+    return string;
+}
+
+
+console.log(printRightTrianglePattern());
+</script> -->
